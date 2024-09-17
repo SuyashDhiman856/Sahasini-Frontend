@@ -11,9 +11,9 @@ export default function Home() {
   return (
     <>
       <Navbar/>
-      <div className="mx-auto">
-        <SOSButton/>
+      <div className="container">
         <Hero/>
+        <SOSButton/>
         <EmergencyContact/>
         <Precautions/>
         <Testimonials/>
