@@ -1,0 +1,31 @@
+@media only screen and (min-width: 1000px) {
+  #sos-button {
+    padding: 100px 80px;
+    border-radius: 100%;
+    font-size: xx-large;
+    font-weight: bold;
+    display: block;
+    margin: 200px auto;
+  }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 576px) {
+  #sos-button {
+    padding: 75px 60px;
+    border-radius: 100%;
+    font-size: x-large;
+    font-weight: bold;
+    display: block;
+    margin: 150px auto;
+  }
+}
+@media only screen and (max-width: 576px) {
+  #sos-button {
+    padding: 70px 60px;
+    border-radius: 100%;
+    font-size: larger;
+    font-weight: bold;
+    display: block;
+    margin: 100px auto;
+  }
+}
