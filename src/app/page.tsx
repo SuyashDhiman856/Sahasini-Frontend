@@ -6,19 +6,21 @@ import Footer from './components/Footer';
 import Testimonials from './components/Testimonials';
 import Precautions from './components/Precautions';
 import styles from './styles/home.module.css'
+import Favicon from './static/images/Logo and Favicon/sahasiniFav.ico'; 
 
 export default function Home() {
   return (
     <>
-      <Navbar/>
-      <div className="container">
+        <link rel="icon" href={Favicon.src} sizes="any" />
+        <Navbar/>
+        <div style={{margin: "0 auto"}} className='container'>
         <Hero/>
         <SOSButton/>
         <EmergencyContact/>
         <Precautions/>
         <Testimonials/>
+        </div>
         <Footer/>
-      </div>
     </>
   );
 }

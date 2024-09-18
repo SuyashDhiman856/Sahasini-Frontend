@@ -1,3 +1,5 @@
+import avatar from '../static/images/Logo and Favicon/women.svg';
+
 export default function Testimonials()
 {
     return (
@@ -13,7 +15,7 @@ export default function Testimonials()
           </svg>
           <p className="leading-relaxed mb-6">"I can't express how grateful I am for this app. One night, I found myself in a potentially dangerous situation, and with just a tap, I activated the SOS feature. The app quickly sent my location to my emergency contacts and started recording, which made me feel so much safer. It's a must-have for every woman!"</p>
           <a className="inline-flex items-center">
-            <img alt="testimonial" src="https://dummyimage.com/106x106" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"/>
+            <img alt="testimonial" src={avatar.src} className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"/>
             <span className="flex-grow flex flex-col pl-4">
               <span className="title-font font-medium text-gray-900">Jessica L., 29, New York City</span>
               <span className="text-gray-500 text-sm">BAKERY OWNER</span>
@@ -28,7 +30,7 @@ export default function Testimonials()
           </svg>
           <p className="leading-relaxed mb-6">"This app has truly empowered me. The safety features, including the spacebar SOS function and live location sharing, provide peace of mind in everyday situations. Knowing that help is just a click away is incredibly reassuring. Thank you for creating such an essential tool for women's safety!"</p>
           <a className="inline-flex items-center">
-            <img alt="testimonial" src="https://dummyimage.com/107x107" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"/>
+            <img alt="testimonial" src={avatar.src} className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"/>
             <span className="flex-grow flex flex-col pl-4">
               <span className="title-font font-medium text-gray-900">Priya M., 34, Los Angeles</span>
               <span className="text-gray-500 text-sm">DESIGNER</span>
