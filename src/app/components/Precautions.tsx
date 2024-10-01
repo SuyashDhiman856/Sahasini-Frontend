@@ -16,7 +16,7 @@ export default function Precautions()
           <img src={protection.src}/>
         </div>
         <div className="flex-grow">
-          <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Shooting Stars</h2>
+          <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Public Guidelines</h2>
           <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
           <a className="mt-3 text-red-500 inline-flex items-center">Learn More
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
@@ -30,7 +30,7 @@ export default function Precautions()
         <img src={protection.src}/>
         </div>
         <div className="flex-grow">
-          <h2 className="text-gray-900 text-lg title-font font-medium mb-3">The Catalyzer</h2>
+          <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Government Guidelines</h2>
           <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
           <a className="mt-3 text-red-500 inline-flex items-center">Learn More
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
@@ -44,7 +44,7 @@ export default function Precautions()
         <img src={protection.src}/>
         </div>
         <div className="flex-grow">
-          <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Neptune</h2>
+          <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Precautions</h2>
           <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
           <a className="mt-3 text-red-500 inline-flex items-center">Learn More
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
